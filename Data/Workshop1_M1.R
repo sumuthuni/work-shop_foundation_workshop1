@@ -5,7 +5,7 @@ Introduction
 #of R programming and the RStudio environment for scientific data analysis. It focuses on developing essential skills in data manipulation, basic coding, and data visualisation to support reproducible and efficient research workflows
 
 #run the calculation
-``{r} 2+1
+ 2+1
 1:30
 #Incomplete line of code
 6*2 
@@ -18,16 +18,16 @@ Introduction
 round (year_old)
 floor(year_old)
 # For instance, round has an argument that lets you specify how many decimal places you want to round a number to
-``{r} year_old<-25.765
+year_old<-25.765
 round (year_old, 2) #comma after the object to specify argument.
 
 #Object and the assignment operator
 #Saving a single value 
-``{r} coral_count <- 42
+coral_count <- 42
 #saving a vector of multiple fish lengths (in mm)
-``{r} fish_lengths <- c(124, 152, 98, 221, 146)
+fish_lengths <- c(124, 152, 98, 221, 146)
 #Manipulating objects
-``{r} coral_count + 1
+coral_count + 1
 coral_count + coral_count
 Coral_Count <- 1 #Note that Cases Matter
 coral_count + Coral_Count
@@ -37,19 +37,19 @@ coral_count + Coral_Count
 !_age <- 25 # no special symbols
 Error: unexpected input in "!_"
 
-``{r} coral count <- 25 # no spaces
+coral count <- 25 # no spaces
 Error: unexpected symbol in "coral count"
 
-``{r}`coral count` <- 25 # spaces used but with back ticks
+coral count` <- 25 # spaces used but with back ticks
 
 #Debugging code
 # Field survey data
-``{r} quadrat_area_m2 <- 0.25
+quadrat_area_m2 <- 0.25
 number_of_quadrats <- 16
 total_area_surveyed <- quadrat_area_m2 * number_of_quadrats
 
 #Spelling mistake 'tolal_area_surveyd'
-``{r} print(total_area_surveyed)
+print(total_area_surveyed)
 
 #Installing and Loading packages
 # library(tidyverse) # load into current session
@@ -90,7 +90,7 @@ notes <- list("Acropora", 27.5, TRUE)
 notes[[1]]
 
 #Data frames and tibbles
-``{r} my_dataframe <- data.frame (no = c(1,2,3), c("Plectropomus", "Scarus", "Pomacentrus"), c(TRUE, FALSE, TRUE)
+my_dataframe <- data.frame (no = c(1,2,3), c("Plectropomus", "Scarus", "Pomacentrus"), c(TRUE, FALSE, TRUE)
                                   my_dataframe
                                   str (my_data_frame)
                                   
